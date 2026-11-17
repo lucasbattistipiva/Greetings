@@ -7,7 +7,7 @@ const Page = () => {
   const [date, setDate] = useState<number>(0);
   const [fullDate, setFullDate] = useState("");
   const [fulltime, setFullTime] = useState("");
-  const [running, setRunning] = useState(true);
+  const [running, setRunning] = useState(true); //true pro relógio funcionar
 
   useEffect(() => {
     if (!running) return;
